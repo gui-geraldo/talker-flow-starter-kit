@@ -17,7 +17,6 @@ export const slideTitles = [
   "Rotina Diária de Prospecção",
   "Redes Sociais: Suas Responsabilidades",
   "Métricas Norte",
-  "Scripts WhatsApp por Segmento",
   "Scripts E-mail e Instagram",
   "Objeções & Respostas",
   "Playbook Clínicas",
@@ -29,7 +28,8 @@ export const slideTitles = [
   "Remuneração e Comissionamento",
   "Próximos Passos",
   "Apêndice: Speed-to-Lead",
-  "Apêndice: Templates"
+  "Apêndice: Templates",
+  "Encerramento & Boas-vindas"
 ];
 
 export const whatsappScripts = {
@@ -72,19 +72,19 @@ export const objections = [
   },
   {
     objection: "Já tenho recepcionista/corretor",
-    response: "Perfeito! Cobrimos noite, finais de semana e picos de demanda. Sua equipe foca no que faz melhor - 1 venda extra já paga tudo."
+    response: "Perfeito! Cobrimos noite, finais de semana além de ser aliado dos seu atendente!. Sua equipe foca no que faz melhor - 1 venda extra já paga tudo."
   },
   {
-    objection: "Deve ser muito difícil de configurar",
-    response: "É prompt-first! Você escreve como se fosse ChatGPT, temos fluxos prontos para seu segmento e onboarding de 45 min."
+    objection: "Deve ser muito difícil de configurar, não sei programação",
+    response: "Você mostra o passo a passo, igualzinho seria com um funcionário novo! É só escrever o que vc quer, que a IA entende. Temos treinamentos prontos para (negócio dele) como a sua, que dá pra colcoar no ar em 20 min."
   },
   {
     objection: "Não quero prometer números",
     response: "Correto! Medimos tempo de 1ª resposta (de horas para 5s) e agendamentos. Você decide se vale a pena continuar."
   },
   {
-    objection: "Muito caro para testar",
-    response: "Por isso oferecemos 7 dias de piloto qualificado - R$ 0 de setup. Se não reduzir seu tempo de resposta e não for simples, você não continua."
+    objection: "Muito caro!",
+    response: "Comparação de custo pessoa / IA. E se eu te der 7 dias gratis pra vc testar? Se não reduzir seu tempo de resposta e não for simples, você não continua."
   }
 ];
 
@@ -95,10 +95,9 @@ export const crmStages = [
   { stage: "Conectado/Descoberta", description: "Contato estabelecido, entendendo necessidades" },
   { stage: "Piloto/Demo agendada", description: "Demonstração ou piloto agendado" },
   { stage: "Piloto/Demo realizada", description: "Apresentação finalizada" },
-  { stage: "Proposta", description: "Proposta comercial enviada" },
   { stage: "Negociação", description: "Em processo de negociação" },
-  { stage: "Fechado Won", description: "Cliente fechado - ganho" },
-  { stage: "Fechado Lost", description: "Oportunidade perdida" },
+  { stage: "Fechado Positivo", description: "Cliente fechado!" },
+  { stage: "Fechado Negativo", description: "Oportunidade perdida" },
   { stage: "Nutrir", description: "Lead para nutrição futura" }
 ];
 
@@ -106,8 +105,7 @@ export const sqlChecklist = [
   "✓ WhatsApp como canal principal de atendimento",
   "✓ Pelo menos 20 conversas por dia no WhatsApp", 
   "✓ Dor declarada (demora na resposta, perda de leads, bagunça)",
-  "✓ Ticket médio cobre R$ 799 com apenas 1 venda",
-  "✓ Decisor presente ou comprometido com o processo"
+  "✓ Ticket médio cobre R$ 799 com apenas 1 venda"
 ];
 
 export const weeklyTargets = {
@@ -115,14 +113,14 @@ export const weeklyTargets = {
     { day: "D1-D2", newLeads: 24, followUps: "10-15", demos: "2-3 agendadas" },
     { day: "D3-D5", newLeads: 30, followUps: "20-25", demos: "3 realizadas/dia" }
   ],
-  weekGoal: "10-12 demos, 4-6 pilotos qualificados, 1-3 fechamentos"
+  weekGoal: "126 leads prospectados, 4 demos, 1 lead com proposta enviada, se possível, 1 fechamento"
 };
 
 export const beatrizFunctions = [
   {
     title: "Prospecção Ativa",
-    description: "Buscar e qualificar novos clientes para a Talker Flow",
-    details: ["Pesquisa de leads nos 3 segmentos", "Primeiro contato via WhatsApp/LinkedIn", "Qualificação inicial usando checklist SQL"]
+    description: "Buscar e qualificar novos clientes",
+    details: ["Pesquisa de leads em  3 segmentos", "Primeiro contato via WhatsApp ou Email", "Qualificação inicial usando checklist"]
   },
   {
     title: "Negociação e Fechamento", 
@@ -130,14 +128,14 @@ export const beatrizFunctions = [
     details: ["Agendar demos com prospects qualificados", "Apresentar proposta de valor", "Negociar condições e fechar contratos"]
   },
   {
-    title: "Suporte ao Cliente",
+    title: "Suporte ao Cliente (Em Breve)",
     description: "Ajudar clientes que precisam de suporte na plataforma", 
     details: ["Responder dúvidas técnicas básicas", "Escalar problemas complexos", "Garantir satisfação do cliente"]
   },
   {
     title: "Redes Sociais",
     description: "Criar conteúdo e manter presença digital da Talker Flow",
-    details: ["1 story por dia no Instagram", "1 publicação a cada 2 semanas", "Calendário de conteúdo para 15 dias"]
+    details: ["1 story por dia no Instagram", "1 publicação a cada 3 dias", "Calendário de conteúdo para 15 dias"]
   }
 ];
 
@@ -161,28 +159,28 @@ export const commercialBasics = {
 
 export const funnelStages = {
   topo: {
-    name: "Topo do Funil (ToFu)",
+    name: "Topo do Funil",
     description: "Atração e conscientização do problema",
-    actions: ["Conteúdo educativo", "Anúncios de alcance", "SEO e blog"],
+    actions: ["Conteúdo educativo", "Anúncios de alcance", "SEO e Prospecção ativa"],
     volume: "Alto volume, baixa qualificação"
   },
   meio: {
-    name: "Meio do Funil (MoFu)", 
+    name: "Meio do Funil", 
     description: "Consideração e avaliação de soluções",
-    actions: ["Cases de sucesso", "Webinars", "Comparativos"],
+    actions: ["Conversas iniciais", "Primeiras reuniões", "Entendimento da dor"],
     volume: "Volume médio, qualificação crescente"
   },
   fundo: {
-    name: "Fundo do Funil (BoFu)",
+    name: "Fundo do Funil",
     description: "Decisão de compra",
-    actions: ["Demos", "Propostas", "Trials"],
+    actions: ["Demomstração", "Propostas", "Trials"],
     volume: "Baixo volume, alta qualificação"
   }
 };
 
 export const segmentPains = {
   clinicas: {
-    experience: "Fui diretor comercial de clínica que faturava R$ 500k/mês por 3 anos",
+    experience: "Fui diretor financeiro e comercial de clínica que faturava R$ 500k/mês por 4 anos",
     mainPains: [
       "Perdem agendamentos fora do horário comercial",
       "Secretária sobrecarregada com calls e WhatsApp",
@@ -193,11 +191,11 @@ export const segmentPains = {
       "Pacientes mandam mensagem à noite/fim de semana",
       "Ticket alto (R$ 2-4k) - 1 paciente extra paga tudo",
       "Necessidade de agilidade para emergências",
-      "Mercado em crescimento pós-pandemia"
+      "Muitas mensagens são pessoas diferentes perguntando a mesma coisa"
     ]
   },
   imobiliarias: {
-    experience: "Conheço medianamente o mercado, baixa profissionalização",
+    experience: "Colocar experiência",
     mainPains: [
       "Quem responde primeiro marca a visita",
       "Corretores gerenciam múltiplos números",
@@ -205,23 +203,23 @@ export const segmentPains = {
       "Falta de qualificação de prospects"
     ],
     opportunities: [
-      "1 aluguel (R$ 2-3k) ou venda (6% de R$ 300-500k) paga ano todo",
+      "1 aluguel (R$ 2-3k) ou venda (6% de R$ 500k) paga o ano todo",
       "Mercado pouco profissionalizado = oportunidade",
       "Leads de placa/site precisam resposta rápida",
-      "Corretor pode focar no 'taco' presencial"
+      "Corretor pode focar no presencial"
     ]
   },
   escolas: {
     experience: "Fui diretor comercial de escola particular por 3 anos",
     mainPains: [
-      "Pais querem resposta imediata (agosto = pico)",
+      "Pais querem resposta imediata (2º Sem = pico)",
       "Múltiplos números da escola causam confusão",
-      "Perda de leads entre funcionários",
+      "Comercial é sazonal, não costuma ter um vendedor fixo (Não é foco)",
       "Dificuldade para agendar visitas"
     ],
     opportunities: [
       "Período sazonal agosto-novembro = urgência",
-      "1 matrícula (R$ 2k/mês) cobre investimento anual",
+      "A IA atende dezenas de pais. Uma matríucula, pagou por tudo",
       "Pais pesquisam múltiplas escolas rapidamente",
       "Automatizar qualificação série/turno/campus"
     ]
@@ -231,19 +229,19 @@ export const segmentPains = {
 export const socialMediaPlan = {
   expectations: {
     stories: "1 story por dia mínimo",
-    posts: "1 publicação a cada 2 semanas",
+    posts: "1 publicação a cada 2 dias no Insta, 1/Semana Linkedin",
     calendar: "Criar calendário para próximos 15 dias"
   },
   contentTypes: [
-    "Cases de sucesso de clientes",
     "Dicas de atendimento no WhatsApp", 
     "Comparativos antes/depois com IA",
     "Bastidores da empresa",
     "Depoimentos de clientes",
-    "Estatísticas do mercado"
+    "Estatísticas do mercado",
+    "Pesquise concorrentes para mais idéias",
   ],
   objectives: [
-    "Aumentar awareness da marca",
+    "Aumentar awareness (consciência) da marca",
     "Gerar leads qualificados",
     "Educar o mercado sobre IA no WhatsApp",
     "Fortalecer autoridade no nicho"
@@ -259,7 +257,7 @@ export const teamDivision = {
       "Ajuda em fechamentos difíceis",
       "Implementação e treinamento pós-venda"
     ],
-    rationale: "Marketing digital cria a dor que resolvemos - campanhas geram leads, WhatsApp não dá conta"
+    rationale: "Remover obstaculos para que o seu caminho seja livre, e pavimentar a estrada. Não permitir que pequenas pedras no caminho façam que a gente deixe de acelerar. Treinamento, resolução de grandes conflitos, fechamento nas primeiras semanas, lidar com leads técnicamente difíceis"
   },
   beatriz: {
     responsibilities: [
@@ -269,46 +267,46 @@ export const teamDivision = {
       "Follow-up do pipeline",
       "Redes sociais e conteúdo"
     ],
-    rationale: "Foco na venda direta B2B, construindo pipeline consistente"
+    rationale: "Achar as bolas e chtar no gol. Manter um ciclo constante de novos leads, encontrar e encantar os clientes, além de garantir que a imagem da empresa esteja sempre em movimento, consistente e atrativa"
   }
 };
 
 export const prospectionMethodology = {
   day1Setup: [
-    "1. Configurar perfil LinkedIn otimizado",
-    "2. Instalar extensões: Apollo, Sales Navigator",
-    "3. Configurar listas no Google Maps por segmento",
-    "4. Preparar templates de WhatsApp e LinkedIn",
-    "5. Configurar CRM com campos obrigatórios"
+    "1. Acesso a Linkedin, Insta, TalkerFlow e EsporoCRM",
+    "2. Zerar a fila de contatos no CRM",
+    "3. Fazer a prospecção de 3 leads de cada segmento, criando já a tarefa para acompanhamento em 2 dias",
+    "4. Preparar o calendário de posts para 15 dias (O que precisa?)",
+    "5. Fazer o primeiro post"
   ],
   dailyProcess: [
     "1. Pesquisar 30 leads (10 por segmento)",
-    "2. Validar critérios SQL básicos",
+    "2. Validar critérios básicos",
     "3. Encontrar WhatsApp/LinkedIn da empresa", 
     "4. Primeira abordagem personalizada",
     "5. Registrar no CRM com próxima ação",
     "6. Follow-up leads anteriores (20-25/dia)",
-    "7. Agendar demos qualificadas"
+    "7. Agendar e participar de demos",
+    "7. Se tiver post no dia, fazer o post"
+
   ],
   sources: [
     "Google Maps (busca por segmento + cidade)",
-    "LinkedIn Sales Navigator",
-    "Instagram business profiles",
     "Sites de empresas locais",
-    "Indicações de clientes atuais"
+    "LinkedIn e Instagram"
   ]
 };
 
 export const compensation = {
   base: "R$ 1.200 fixo mensal",
   bonus: {
-    rule: "R$ 100 por cliente fechado (acima de 4/mês)",
+    rule: "R$ 100 por cliente fechado além do esperado",
     examples: [
-      "4 clientes/mês = R$ 1.200 (sem bônus)",
-      "5 clientes/mês = R$ 1.200 + R$ 500 = R$ 1.700",
-      "6 clientes/mês = R$ 1.200 + R$ 600 = R$ 1.800", 
-      "7 clientes/mês = R$ 1.200 + R$ 700 = R$ 1.900"
+      "4 clientes/mês = R$ 1.200 ",
+      "5 clientes/mês = R$ 1.200 + R$ 500 Totalizando R$ 1.700",
+      "6 clientes/mês = R$ 1.200 + R$ 600 Totalizando R$ 1.800", 
+      "7 clientes/mês = R$ 1.200 + R$ 700 Totalizando  R$ 1.900"
     ]
   },
-  target: "Meta: Fechar pelo menos 1 cliente por semana (4/mês minimum)"
+  target: "Referência: 1 cliente por semana (4/mês)"
 };

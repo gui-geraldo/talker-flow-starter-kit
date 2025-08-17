@@ -75,30 +75,30 @@ export const PresentationDeck = () => {
         <SlideTitle className="mb-8">
           Talker Flow
           <br />
-          <span className="text-4xl">Treinamento Comercial</span>
+          <span className="text-4xl">Treinamento Inicial</span>
         </SlideTitle>
         <SlideSubtitle className="mb-12">
-          Semana 1: De 0 a Vendedor em 48 horas
+          Primeira Semana: De 0 a 1 em 24 horas
         </SlideSubtitle>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
           <MetricCard
-            title="Segmentos Foco"
-            value="3"
-            description="Clínicas → Escolas → Imobiliárias"
+            title=""
+            value="O Que?"
+            description="O que é a Talker Flow?"
             variant="primary"
             icon={<Target />}
           />
           <MetricCard
-            title="Meta Semana 1"
-            value="10-12"
-            description="Demos agendadas"
+            title=""
+            value="Para Quem?"
+            description="Para quem é a Talker Flow?"
             variant="success"
             icon={<TrendingUp />}
           />
           <MetricCard
-            title="Fechamentos"
-            value="1-3"
-            description="Novos clientes"
+            title=""
+            value="Como?"
+            description="Como vou fazer?"
             variant="whatsapp"
             icon={<CheckCircle />}
           />
@@ -110,27 +110,25 @@ export const PresentationDeck = () => {
     <PresentationSlide key={1} background="primary">
       <div className="text-center">
         <SlideTitle className="mb-8">
-          Bem-vinda, Beatriz! 🎉
+          Bem-vinda Beatriz! 🎉
         </SlideTitle>
         <SlideSubtitle className="mb-12">
-          Sua jornada comercial na Talker Flow começa agora
+          Sua jornada na Talker Flow começa agora
         </SlideSubtitle>
         
         <div className="max-w-4xl mx-auto space-y-8">
           <div className="bg-white/10 p-8 rounded-lg">
-            <h3 className="text-2xl font-bold mb-4">Esta é sua primeira experiência comercial</h3>
+            <h3 className="text-2xl font-bold mb-4">Fico muito contente que começe com a gente!</h3>
             <p className="text-lg opacity-90 leading-relaxed">
-              Você está prestes a entrar no mundo das vendas B2B, aprendendo conceitos fundamentais,
-              técnicas de prospecção e como converter leads em clientes fiéis da Talker Flow.
+              Você está prestes a entrar em uma plataforma que veio mudar a forma como as empresas se comunicam no WhatsApp
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-white/5 p-6 rounded-lg">
-              <h4 className="text-xl font-bold mb-3">🎯 Seu Objetivo</h4>
+              <h4 className="text-xl font-bold mb-3">🎯 Seu Objetivo Agora</h4>
               <p className="opacity-90">
-                Dominar as 4 funções principais e se tornar uma vendedora 
-                confiante e eficaz em menos de 1 semana.
+                Dominar as 4 funções principais e estar 100% integrada em 1 semana.
               </p>
             </div>
             <div className="bg-white/5 p-6 rounded-lg">
@@ -138,6 +136,12 @@ export const PresentationDeck = () => {
               <p className="opacity-90">
                 Te dar todas as ferramentas, conhecimentos e suporte 
                 para você ter sucesso desde o primeiro dia.
+              </p>
+            </div>
+            <div className="bg-white/5 p-6 rounded-lg">
+              <h4 className="text-xl font-bold mb-3">❓ Quem Somos?!</h4>
+              <p className="opacity-90">
+                Apresentação, o que é a Talker Flow, como surgiu, onde estamos, para onde vamos?
               </p>
             </div>
           </div>
@@ -178,7 +182,7 @@ export const PresentationDeck = () => {
     // Slide 4: Conceitos Comerciais Básicos - Parte 1
     <PresentationSlide key={3} background="gradient">
       <SlideTitle>Conceitos Comerciais Básicos - Parte 1</SlideTitle>
-      <SlideSubtitle>Fundamentos que todo vendedor precisa saber</SlideSubtitle>
+      <SlideSubtitle>Fundamentos importantes!</SlideSubtitle>
       
       <div className="space-y-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -229,7 +233,7 @@ export const PresentationDeck = () => {
           <h4 className="text-xl font-bold mb-3">Por que isso importa?</h4>
           <p className="text-lg opacity-90">
             Você precisa falar a linguagem dos clientes. Eles pensam em ROI, CAC e LTV o tempo todo.
-            Dominando estes conceitos, você consegue ter conversas mais profundas e técnicas.
+            Dominando estes conceitos, você consegue ter conversas mais profundas.
           </p>
         </div>
       </div>
@@ -340,10 +344,10 @@ export const PresentationDeck = () => {
         </div>
         
         <div className="bg-white/5 p-6 rounded-lg text-center text-white">
-          <h4 className="text-xl font-bold mb-3">Sua função na Talker Flow</h4>
+          <h4 className="text-xl font-bold mb-3">Seu objetivo na Talker Flow</h4>
           <p className="text-lg opacity-90">
-            Você vai trabalhar principalmente no <strong>Topo</strong> (prospecção) e <strong>Fundo</strong> (fechamento).
-            Atrair leads qualificados e converter em clientes pagantes.
+            Você vai atuar de início, especialmente no <strong>Topo</strong> (prospecção) e <strong>Meio</strong> (fechamento).<br />
+            Atrair leads qualificados e converter em reuniões e demonstrações.
           </p>
         </div>
       </div>
@@ -358,12 +362,12 @@ export const PresentationDeck = () => {
         <div>
           <h3 className="text-2xl font-bold mb-6 text-primary">O que é o Talker Flow?</h3>
           <div className="space-y-4 text-lg">
-            <p>• Organizamos e automatizamos o WhatsApp com IA</p>
-            <p>• Resposta em ~5 segundos, 24/7</p>
+            <p>• Organizamos e simplificamos o WhatsApp com IA</p>
+            <p>• Resposta em 5 segundos, 24 horas</p>
             <p>• Múltiplos atendentes e números</p>
             <p>• Roteamento inteligente</p>
             <p>• Botão "Desativar IA" para controle total</p>
-            <p>• Entende áudio, conversa em 24 idiomas</p>
+            <p>• Conversa em áudio, fluente em 24 idiomas</p>
             <p>• Integra via webhook com qualquer sistema</p>
           </div>
         </div>
@@ -398,8 +402,7 @@ export const PresentationDeck = () => {
       <div className="bg-gradient-primary p-6 rounded-lg text-white text-center">
         <h4 className="text-xl font-bold mb-2">Proposta de Valor Única</h4>
         <p className="text-lg opacity-90">
-          "Organizamos e automatizamos o WhatsApp com IA, resposta em ~5s, 24/7, 
-          múltiplos atendentes e números, roteamento, botão 'Desativar IA' para assumir manualmente"
+          "Organizamos o atendimento pelo WhatsApp e integramos com IA de maneira SIMPLES. resposta em 5 seg, 24 horas por dia, centralizando tudo em um lugar só, e te deixando com o controle TOTAL"
         </p>
       </div>
     </PresentationSlide>,
@@ -413,8 +416,8 @@ export const PresentationDeck = () => {
         <Card className="p-6 border-emerald-500 bg-emerald-50">
           <h3 className="text-xl font-bold mb-4 text-emerald-800">🦷 Clínicas</h3>
           <div className="space-y-3 text-emerald-700">
-            <p><strong>Prioridade:</strong> Odontologia, Estética</p>
-            <p><strong>Ticket:</strong> R$ 2-4k por consulta</p>
+            <p><strong>Prioridade:</strong> Odontologia, Estética e Especialidades</p>
+            <p><strong>Ticket:</strong> R$ 2-4k por procedimento</p>
             <p><strong>ROI:</strong> 1 paciente/mês paga tudo</p>
             <p><strong>Dor:</strong> Perdem agendamentos fora do horário</p>
           </div>
@@ -440,9 +443,9 @@ export const PresentationDeck = () => {
           <h3 className="text-xl font-bold mb-4 text-purple-800">🎓 Escolas</h3>
           <div className="space-y-3 text-purple-700">
             <p><strong>Período:</strong> Ago-Nov (captação)</p>
-            <p><strong>Mensalidade:</strong> ~R$ 2k</p>
+            <p><strong>Mensalidade:</strong> ~R$ 1-3k</p>
             <p><strong>ROI:</strong> 1 matrícula/mês cobre</p>
-            <p><strong>Dor:</strong> Pais querem resposta imediata</p>
+            <p><strong>Dor:</strong> Pais querem resposta imediata e conhecer a escola</p>
           </div>
           <div className="mt-4 bg-purple-100 p-3 rounded text-sm text-purple-800">
             "Estamos em agosto - pico da procura por matrículas 2025"
@@ -493,8 +496,7 @@ export const PresentationDeck = () => {
       <div className="mt-8 bg-white/5 p-6 rounded-lg text-center text-white">
         <h4 className="text-xl font-bold mb-3">Argumento Killer para Clínicas</h4>
         <p className="text-lg opacity-90">
-          "Só o cliente que manda mensagem à noite ou no final de semana (que procuraria outra clínica) 
-          e que agora você consegue atender, já paga todo o valor da plataforma no mês inteiro. O resto é brinde."
+          "Só um paciente que manda mensagem à noite ou no final de semana (que hoje você perde para a clínica grande que responde 24H), e que agora você consegue atender, já paga todo o valor da plataforma no mês inteiro. O resto é brinde."
         </p>
       </div>
     </PresentationSlide>,
@@ -502,7 +504,7 @@ export const PresentationDeck = () => {
     // Slide 10: Imobiliárias - Dores e Oportunidades  
     <PresentationSlide key={9} background="gradient">
       <SlideTitle>Imobiliárias: Dores e Oportunidades</SlideTitle>
-      <SlideSubtitle>Minha experiência: {segmentPains.imobiliarias.experience}</SlideSubtitle>
+      <SlideSubtitle>Mercado com baixíssima profissionalização, adoram um papel, cartório e visitas presenciais</SlideSubtitle>
       
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <Card className="p-8 bg-white/10 border-white/20">
@@ -542,7 +544,8 @@ export const PresentationDeck = () => {
         <h4 className="text-xl font-bold mb-3">Argumento Killer para Imobiliárias</h4>
         <p className="text-lg opacity-90">
           "Quem responde primeiro marca a visita. Com 1 aluguel (R$ 2-3k) ou 1 venda (6% de R$ 300-500k) 
-          você paga o ano todo da plataforma. O corretor pode focar no 'taco' presencial."
+          você paga <br/> 
+          o ano todo da plataforma, enquanto o corretor foca no presencial"
         </p>
       </div>
     </PresentationSlide>,
@@ -589,8 +592,7 @@ export const PresentationDeck = () => {
       <div className="mt-8 bg-white/5 p-6 rounded-lg text-center text-white">
         <h4 className="text-xl font-bold mb-3">Argumento Killer para Escolas</h4>
         <p className="text-lg opacity-90">
-          "Estamos em agosto - pico da procura por matrículas 2025. Pais pesquisam múltiplas escolas rapidamente. 
-          Com 1 matrícula (R$ 2k/mês) você cobre o investimento anual da plataforma."
+          "Estamos em Setembro, é agora que os pais começam a pesquisar novas escolas para 2026. Pais pesquisam múltiplas escolas rapidamente, a que agendar visita primeiro, é a que vai encantar os pais, começando pelo atendimento"
         </p>
       </div>
     </PresentationSlide>,
@@ -609,7 +611,7 @@ export const PresentationDeck = () => {
                 <span className="text-2xl font-bold">R$</span>
               </div>
               <div>
-                <div className="font-bold">R$ 799/mês</div>
+                <div className="font-bold">R$ 799/mês (Use 599 como Âncora)</div>
                 <div className="opacity-80">Plano ilimitado</div>
               </div>
             </div>
@@ -680,24 +682,24 @@ export const PresentationDeck = () => {
         </div>
         
         <div>
-          <h3 className="text-xl font-bold mb-4">Campos Obrigatórios</h3>
+          <h3 className="text-xl font-bold mb-4">Campos CRM</h3>
           <div className="bg-muted p-4 rounded-lg mb-6">
             <div className="grid grid-cols-2 gap-2 text-sm">
-              <div>• Segmento</div>
-              <div>• Subnicho</div>
-              <div>• Cidade/UF</div>
+              <div>• <b>Segmento</b></div>
+              <div>• <b>Nicho</b></div>
+              <div>• <b>Endereço</b></div>
               <div>• Volume WA/dia</div>
-              <div>• Nº atendentes</div>
+              <div>• Nº Atendentes</div>
               <div>• Faturamento</div>
-              <div>• Decisor</div>
+              <div>• <b>Decisor</b></div>
               <div>• Origem</div>
-              <div>• Link WhatsApp</div>
-              <div>• Próxima ação</div>
-              <div>• Status (Quente/Morno/Frio)</div>
+              <div>• <b>Link WhatsApp</b></div>
+              <div>• <b>Próxima Ação</b></div>
+              <div>• <b>Status (Quente/Morno/Frio)</b></div>
             </div>
           </div>
           
-          <h3 className="text-xl font-bold mb-4">Checklist SQL</h3>
+          <h3 className="text-xl font-bold mb-4">Checklist</h3>
           <div className="space-y-2">
             {sqlChecklist.map((item, index) => (
               <div key={index} className="flex items-center gap-2 text-sm">
@@ -713,12 +715,12 @@ export const PresentationDeck = () => {
     // Slide 14: Divisão Comercial da Equipe
     <PresentationSlide key={13} background="gradient">
       <SlideTitle>Divisão Comercial da Equipe</SlideTitle>
-      <SlideSubtitle>Cada um focando onde tem mais experiência</SlideSubtitle>
+      <SlideSubtitle>🎯 Foco e Objetivo </SlideSubtitle>
       
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <Card className="p-8 bg-white/10 border-white/20">
           <h3 className="text-2xl font-bold mb-6 text-white flex items-center gap-3">
-            👨‍💼 Founder (Você)
+            👨‍💼 Guilherme
           </h3>
           <div className="space-y-4 mb-6">
             {teamDivision.founder.responsibilities.map((resp, index) => (
@@ -730,14 +732,14 @@ export const PresentationDeck = () => {
           </div>
           <div className="bg-white/5 p-4 rounded">
             <p className="text-white/80 text-sm italic">
-              <strong>Rationale:</strong> {teamDivision.founder.rationale}
+              <strong>Objetivo:</strong> {teamDivision.founder.rationale}
             </p>
           </div>
         </Card>
 
         <Card className="p-8 bg-white/10 border-white/20">
           <h3 className="text-2xl font-bold mb-6 text-white flex items-center gap-3">
-            👩‍💼 Beatriz (Você)
+            👩‍💼 Beatriz
           </h3>
           <div className="space-y-4 mb-6">
             {teamDivision.beatriz.responsibilities.map((resp, index) => (
@@ -749,7 +751,7 @@ export const PresentationDeck = () => {
           </div>
           <div className="bg-white/5 p-4 rounded">
             <p className="text-white/80 text-sm italic">
-              <strong>Rationale:</strong> {teamDivision.beatriz.rationale}
+              <strong>Objetivo:</strong> {teamDivision.beatriz.rationale}
             </p>
           </div>
         </Card>
@@ -767,7 +769,7 @@ export const PresentationDeck = () => {
     // Slide 15: Metodologia de Prospecção - Passo a Passo
     <PresentationSlide key={14}>
       <SlideTitle>Metodologia de Prospecção - Passo a Passo</SlideTitle>
-      <SlideSubtitle>Dia 1: O que fazer quando sentar na cadeira</SlideSubtitle>
+      <SlideSubtitle>Dia 1: O que fazer no primeiro dia</SlideSubtitle>
       
       <div className="space-y-8">
         <Card className="p-6">
@@ -823,8 +825,8 @@ export const PresentationDeck = () => {
           <div className="space-y-4">
             <MetricCard
               title="Novos Leads/Dia"
-              value="24"
-              description="8 por segmento"
+              value="18"
+              description="6 por segmento"
               icon={<Users />}
             />
             <MetricCard
@@ -834,9 +836,9 @@ export const PresentationDeck = () => {
               icon={<MessageCircle />}
             />
             <MetricCard
-              title="Demos Agendadas"
-              value="2-3"
-              description="Para o founder"
+              title="Demo agendada"
+              value="1"
+              description="Cliente conhecendo a plataforma"
               icon={<Target />}
             />
           </div>
@@ -861,8 +863,8 @@ export const PresentationDeck = () => {
             />
             <MetricCard
               title="Demos/Dia"
-              value="3"
-              description="Conduzidas pelo founder"
+              value="1"
+              description="Cliente cinhecendo a plataforma"
               icon={<Target />}
               variant="success"
             />
@@ -871,7 +873,7 @@ export const PresentationDeck = () => {
       </div>
       
       <div className="mt-8 bg-gradient-primary p-6 rounded-lg text-white text-center">
-        <h4 className="text-xl font-bold mb-2">Meta da Semana 1</h4>
+        <h4 className="text-xl font-bold mb-2">Objetivo da Semana 1</h4>
         <p className="text-lg">{weeklyTargets.weekGoal}</p>
       </div>
     </PresentationSlide>,
@@ -953,8 +955,8 @@ export const PresentationDeck = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
         <MetricCard
           title="Tempo 1ª Resposta"
-          value="≤5s"
-          description="De horas para segundos"
+          value="≤2 min"
+          description="Ajuste a IA para ser sua aliada"
           icon={<Clock />}
           variant="primary"
         />
@@ -1000,48 +1002,10 @@ export const PresentationDeck = () => {
       </div>
     </PresentationSlide>,
 
-    // Slide 19: Scripts WhatsApp
-    <PresentationSlide key={18}>
-      <SlideTitle>Scripts WhatsApp por Segmento</SlideTitle>
-      <SlideSubtitle>Templates testados e aprovados</SlideSubtitle>
-      
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        <ScriptTemplate
-          title="Primeira Abordagem - Clínicas"
-          segment="clinicas"
-          channel="whatsapp"
-          script={whatsappScripts.clinicas.initial}
-        />
-        <ScriptTemplate
-          title="Primeira Abordagem - Imobiliárias"
-          segment="imobiliarias"
-          channel="whatsapp"
-          script={whatsappScripts.imobiliarias.initial}
-        />
-        <ScriptTemplate
-          title="Primeira Abordagem - Escolas"
-          segment="escolas"
-          channel="whatsapp"
-          script={whatsappScripts.escolas.initial}
-        />
-      </div>
-
-      <div className="mt-8 bg-muted p-6 rounded-lg">
-        <h3 className="text-lg font-bold mb-4">Dicas de Uso</h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
-          <div>• Personalize com o nome da empresa quando possível</div>
-          <div>• Use emojis relacionados ao segmento</div>
-          <div>• Sempre termine com pergunta para engajar</div>
-          <div>• Mencione o ROI específico do segmento</div>
-          <div>• Ofereça piloto apenas para leads qualificados</div>
-          <div>• Responda objeções com casos de uso reais</div>
-        </div>
-      </div>
-    </PresentationSlide>,
-
+    
     // Slide 20: Scripts E-mail e Instagram
-    <PresentationSlide key={19}>
-      <SlideTitle>Scripts E-mail e Instagram</SlideTitle>
+    <PresentationSlide key={18}>
+      <SlideTitle>Scripts E-mail e Instagram (Idéias!)</SlideTitle>
       <SlideSubtitle>Abordagem multicanal para máximo alcance</SlideSubtitle>
       
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -1123,7 +1087,7 @@ export const PresentationDeck = () => {
     </PresentationSlide>,
 
     // Slide 21: Objeções & Respostas
-    <PresentationSlide key={20}>
+    <PresentationSlide key={19}>
       <SlideTitle>Objeções & Respostas</SlideTitle>
       <SlideSubtitle>Como lidar com as 5 objeções mais comuns</SlideSubtitle>
       
@@ -1158,7 +1122,7 @@ export const PresentationDeck = () => {
     </PresentationSlide>,
 
     // Slide 22: Playbook Clínicas
-    <PresentationSlide key={21}>
+    <PresentationSlide key={20}>
       <SlideTitle>Playbook Clínicas</SlideTitle>
       <SlideSubtitle>Fluxo conversacional para maximizar agendamentos</SlideSubtitle>
       
@@ -1172,7 +1136,7 @@ export const PresentationDeck = () => {
             },
             {
               title: "Identificar Especialidade",
-              description: "Que especialidades vocês atendem? Quantos pacientes por dia vocês recebem pelo WhatsApp?",
+              description: "(Pesquise antes) Que especialidades vocês mais atendem? Quantos pacientes por dia +/- vocês recebem pelo WhatsApp?",
               nextActions: ["Descobrir volume", "Entender dores"]
             },
             {
@@ -1182,7 +1146,7 @@ export const PresentationDeck = () => {
             },
             {
               title: "Agendar Demonstração",
-              description: "Que tal uma demo de 15 min hoje ou amanhã? Te mostro funcionando no seu WhatsApp real.",
+              description: "Que tal uma demo grátis hoje ou amanhã? Te mostro funcionando em menos de 10 minutos.",
               nextActions: ["Confirmar agenda", "Enviar calendário"]
             }
         ]}
@@ -1196,7 +1160,7 @@ export const PresentationDeck = () => {
     </PresentationSlide>,
 
     // Slide 23: Playbook Imobiliárias
-    <PresentationSlide key={22}>
+    <PresentationSlide key={21}>
       <SlideTitle>Playbook Imobiliárias</SlideTitle>
       <SlideSubtitle>Fluxo conversacional para agendar mais visitas</SlideSubtitle>
       
@@ -1234,7 +1198,7 @@ export const PresentationDeck = () => {
     </PresentationSlide>,
 
     // Slide 24: Playbook Escolas
-    <PresentationSlide key={23}>
+    <PresentationSlide key={22}>
       <SlideTitle>Playbook Escolas</SlideTitle>
       <SlideSubtitle>Fluxo conversacional para aumentar matrículas</SlideSubtitle>
       
@@ -1272,7 +1236,7 @@ export const PresentationDeck = () => {
     </PresentationSlide>,
 
     // Slide 25: Roteiro Micro-Demo
-    <PresentationSlide key={24}>
+    <PresentationSlide key={23}>
       <SlideTitle>Roteiro Micro-Demo</SlideTitle>
       <SlideSubtitle>15 minutos para conquistar o cliente</SlideSubtitle>
       
@@ -1317,7 +1281,7 @@ export const PresentationDeck = () => {
             </div>
             <div>
               <strong className="text-whatsapp">Fechamento (13-15 min):</strong>
-              <p>"Faz sentido testarmos 7 dias no seu número real? Setup R$ 0. Se não reduzir seu tempo de resposta para segundos, você não continua. Podemos começar hoje?"</p>
+              <p>"(Se a pessoa estiver desanimada) Faz sentido testarmos 7 dias no seu número real? Setup R$ 0. Se não reduzir seu tempo de resposta para segundos, você não continua. Podemos começar hoje?"</p>
             </div>
           </div>
         </Card>
@@ -1325,7 +1289,7 @@ export const PresentationDeck = () => {
     </PresentationSlide>,
 
     // Slide 26: Proposta de 1 Página
-    <PresentationSlide key={25}>
+    <PresentationSlide key={24}>
       <SlideTitle>Proposta de 1 Página</SlideTitle>
       <SlideSubtitle>Modelo para fechar na hora da demo</SlideSubtitle>
       
@@ -1333,7 +1297,7 @@ export const PresentationDeck = () => {
         <Card className="p-8 bg-gradient-card">
           <div className="text-center mb-8">
             <h2 className="text-3xl font-bold mb-4">Proposta Talker Flow</h2>
-            <p className="text-xl text-muted-foreground">Automatização WhatsApp com IA</p>
+            <p className="text-xl text-muted-foreground">Atendimento no WhatsApp integrado com IA</p>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
@@ -1342,7 +1306,7 @@ export const PresentationDeck = () => {
               <div className="space-y-3">
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-success" />
-                  <span>Resposta automática em ~5 segundos</span>
+                  <span>Resposta imediata em ~5 segundos</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-success" />
@@ -1354,7 +1318,7 @@ export const PresentationDeck = () => {
                 </div>
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-success" />
-                  <span>Integração com seus sistemas</span>
+                  <span>Áudio, texto, e emojis</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-success" />
@@ -1397,7 +1361,7 @@ export const PresentationDeck = () => {
     </PresentationSlide>,
 
     // Slide 27: Plano Semana 1
-    <PresentationSlide key={26}>
+    <PresentationSlide key={25}>
       <SlideTitle>Plano Semana 1</SlideTitle>
       <SlideSubtitle>Cronograma dia a dia para começar vendendo</SlideSubtitle>
       
@@ -1480,25 +1444,24 @@ export const PresentationDeck = () => {
     </PresentationSlide>,
 
     // Slide 28: Remuneração e Comissionamento
-    <PresentationSlide key={27} background="gradient">
-      <SlideTitle>Remuneração e Comissionamento</SlideTitle>
+    <PresentationSlide key={26} background="gradient">
+      <SlideTitle>Valores e Incentivos</SlideTitle>
       <SlideSubtitle>Sua estrutura de pagamento transparente</SlideSubtitle>
       
       <div className="space-y-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <Card className="p-8 bg-white/10 border-white/20">
             <h3 className="text-2xl font-bold mb-6 text-white flex items-center gap-3">
-              💰 Salário Base
             </h3>
             <div className="text-center">
               <div className="text-5xl font-bold text-white mb-2">{compensation.base}</div>
-              <p className="text-white/80 text-lg">Pagamento garantido todo mês</p>
+              <p className="text-white/80 text-lg">Valor garantido todo mês</p>
             </div>
           </Card>
 
           <Card className="p-8 bg-white/10 border-white/20">
             <h3 className="text-2xl font-bold mb-6 text-white flex items-center gap-3">
-              🎯 Comissão
+              🎯 Incentivo por Resultado
             </h3>
             <div className="space-y-4">
               <p className="text-white text-lg font-medium">{compensation.bonus.rule}</p>
@@ -1518,7 +1481,7 @@ export const PresentationDeck = () => {
                 <div className="text-white/80 text-sm mb-2">
                   {example.split(' =')[0].split(' ').slice(2).join(' ')}
                 </div>
-                <div className="text-lg font-bold text-success">
+                <div className="text-lg font-bold text-white">
                   {example.split(' = ')[1]}
                 </div>
               </div>
@@ -1527,43 +1490,33 @@ export const PresentationDeck = () => {
         </Card>
 
         <div className="bg-white/5 p-6 rounded-lg text-center text-white">
-          <h4 className="text-xl font-bold mb-3">Potencial de Ganhos</h4>
           <p className="text-lg opacity-90">
-            Com dedicação e seguindo a metodologia, você pode facilmente chegar a 
-            <strong> R$ 2.000+ por mês</strong> já no primeiro trimestre!
+          O valor fixo é a bolsa mensal do estágio. O incentivo por resultado é um bônus extra, opcional, pensado para reconhecer o esforço e apoiar o aprendizado.
           </p>
         </div>
       </div>
     </PresentationSlide>,
 
     // Slide 29: Próximos Passos
-    <PresentationSlide key={28}>
+    <PresentationSlide key={27}>
       <SlideTitle>Próximos Passos</SlideTitle>
       <SlideSubtitle>Seu checklist para começar hoje mesmo</SlideSubtitle>
       
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <Card className="p-6">
-          <h3 className="text-xl font-bold mb-4 text-primary">Preparação Técnica</h3>
+          <h3 className="text-xl font-bold mb-4 text-primary">Rotinas</h3>
           <div className="space-y-3">
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-sm font-bold">1</div>
-              <span>Configurar perfil LinkedIn otimizado</span>
+              <span>Reuniões de até 15 minutos (Seg - Qua - Sex) </span>
             </div>
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-sm font-bold">2</div>
-              <span>Instalar Apollo.io e Sales Navigator</span>
+              <span>Reunião com time 1x / semana</span>
             </div>
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-sm font-bold">3</div>
-              <span>Acessar e configurar EspoCRM</span>
-            </div>
-            <div className="flex items-center gap-3">
-              <div className="w-8 h-8 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-sm font-bold">4</div>
-              <span>Salvar templates de scripts</span>
-            </div>
-            <div className="flex items-center gap-3">
-              <div className="w-8 h-8 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-sm font-bold">5</div>
-              <span>Preparar calendário de conteúdo 15 dias</span>
+              <span>Papo quinzenal: Objetivos, resultados, dores, próximos passos</span>
             </div>
           </div>
         </Card>
@@ -1573,23 +1526,23 @@ export const PresentationDeck = () => {
           <div className="space-y-3">
             <div className="flex items-center gap-3">
               <Clock className="w-6 h-6 text-success" />
-              <span><strong>9h:</strong> Revisão do treinamento</span>
+              <span><strong></strong> Revisão do treinamento</span>
             </div>
             <div className="flex items-center gap-3">
               <Search className="w-6 h-6 text-success" />
-              <span><strong>9h30:</strong> Primeira busca de leads</span>
+              <span><strong></strong> Primeira busca de leads</span>
             </div>
             <div className="flex items-center gap-3">
               <MessageCircle className="w-6 h-6 text-success" />
-              <span><strong>10h:</strong> Primeiros contatos WhatsApp</span>
+              <span><strong></strong> Primeiros contatos WhatsApp</span>
             </div>
             <div className="flex items-center gap-3">
               <UserCheck className="w-6 h-6 text-success" />
-              <span><strong>14h:</strong> Reunião de alinhamento</span>
+              <span><strong></strong> Reunião de alinhamento</span>
             </div>
             <div className="flex items-center gap-3">
               <Target className="w-6 h-6 text-success" />
-              <span><strong>17h:</strong> Review do dia e próximas ações</span>
+              <span><strong></strong> Review do dia e próximas ações</span>
             </div>
           </div>
         </Card>
@@ -1618,7 +1571,7 @@ export const PresentationDeck = () => {
     </PresentationSlide>,
 
     // Slide 30: Apêndice Speed-to-Lead
-    <PresentationSlide key={29} background="gradient">
+    <PresentationSlide key={28} background="gradient">
       <SlideTitle>Apêndice: Speed-to-Lead</SlideTitle>
       <SlideSubtitle>Estudos que comprovam a importância da resposta rápida</SlideSubtitle>
       
@@ -1647,28 +1600,55 @@ export const PresentationDeck = () => {
         </div>
 
         <Card className="p-8 bg-white/10 border-white/20">
-          <h3 className="text-2xl font-bold mb-6 text-white">Fonte: Harvard Business Review</h3>
-          <div className="space-y-4 text-white/90">
-            <p>
-              <strong>Estudo com 2.241 empresas B2B:</strong> Empresas que respondem leads 
-              em até 5 minutos têm 21x mais chances de qualificar o prospect comparado 
-              a empresas que demoram 30 minutos ou mais.
-            </p>
-            <p>
-              <strong>InsideSales.com:</strong> 50% dos leads compram de quem responde primeiro. 
-              A velocidade de resposta é o fator #1 de conversão em vendas B2B.
-            </p>
-            <p>
-              <strong>MarketingProfs:</strong> 78% dos clientes compram da empresa que 
-              responde primeiro às suas dúvidas, independente do preço.
-            </p>
-          </div>
-        </Card>
+  <h3 className="text-2xl font-bold mb-6 text-white">Fontes</h3>
+  <div className="space-y-4 text-white/90">
+    <p>
+      <strong>Estudo com 2.241 empresas B2B:</strong> Empresas que respondem leads 
+      em até 5 minutos têm 21x mais chances de qualificar o prospect comparado 
+      a empresas que demoram 30 minutos ou mais.{" "}
+      <a
+        href="https://blog.hubspot.com/insiders/why-your-b2b-lead-response-time-is-killing-your-business"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-400 underline hover:text-blue-300"
+      >
+        Clique aqui
+      </a>
+    </p>
+
+    <p>
+      <strong>InsideSales.com:</strong> 50% dos leads compram de quem responde primeiro. 
+      A velocidade de resposta é o fator #1 de conversão em vendas B2B.{" "}
+      <a
+        href="https://voiso.com/articles/lead-response-time-metrics"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-400 underline hover:text-blue-300"
+      >
+        Clique aqui
+      </a>
+    </p>
+
+    <p>
+      <strong>MarketingProfs:</strong> 78% dos clientes compram da empresa que 
+      responde primeiro às suas dúvidas, independente do preço.{" "}
+      <a
+        href="https://www.marketingprofs.com/articles/2013/10330/the-critical-few-minutes-when-leads-convert-or-die"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-400 underline hover:text-blue-300"
+      >
+        Clique aqui
+      </a>
+    </p>
+  </div>
+</Card>
+
       </div>
     </PresentationSlide>,
 
     // Slide 31: Apêndice Templates
-    <PresentationSlide key={30}>
+    <PresentationSlide key={29}>
       <SlideTitle>Apêndice: Templates</SlideTitle>
       <SlideSubtitle>Scripts copiáveis para usar imediatamente</SlideSubtitle>
       
@@ -1729,7 +1709,70 @@ export const PresentationDeck = () => {
           businessName="Clínica Demo"
         />
       </div>
-    </PresentationSlide>
+    </PresentationSlide>,
+
+    // Slide 32: Encerramento & Boas-vindas
+<PresentationSlide key={30} background="primary">
+  <div className="text-center max-w-4xl mx-auto">
+    <SlideTitle className="mb-4">
+      Obrigado e boas-vindas 🎉
+    </SlideTitle>
+
+    <SlideSubtitle className="mb-8">
+      Que bom ter você com a gente na Talker Flow 😊 
+    </SlideSubtitle>
+
+    {/* Mensagem principal */}
+    <div className="bg-white/10 p-6 rounded-lg mb-8">
+      <p className="text-lg opacity-90 leading-relaxed">
+        Obrigado por dedicar este tempo ao onboarding. Você já tem o essencial para começar:
+        <strong> 3 funções principais</strong>, <strong>playbooks</strong>, <strong>scripts</strong> e o
+        <strong> objetivo da Semana 1</strong>. Estamos aqui para te apoiar em cada passo. 🚀
+      </p>
+    </div>
+
+    {/* 3 pilares finais */}
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+      <Card className="p-6 bg-white/10 border-white/20">
+        <div className="flex items-center gap-3 mb-2 justify-center">
+          <Heart className="w-6 h-6 text-accent" />
+          <h4 className="text-white font-bold">Nossa cultura</h4>
+        </div>
+        <p className="text-white/90 text-sm">
+          Transparência, aprendizado contínuo e autonomia com responsabilidade.
+        </p>
+      </Card>
+
+      <Card className="p-6 bg-white/10 border-white/20">
+        <div className="flex items-center gap-3 mb-2 justify-center">
+          <Target className="w-6 h-6 text-success" />
+          <h4 className="text-white font-bold">Seu norte</h4>
+        </div>
+        <p className="text-white/90 text-sm">
+          Foco em <strong>demos qualificadas</strong> e <strong>pilotos qualificados</strong>.
+        </p>
+      </Card>
+
+      <Card className="p-6 bg-white/10 border-white/20">
+        <div className="flex items-center gap-3 mb-2 justify-center">
+          <MessageCircle className="w-6 h-6 text-whatsapp" />
+          <h4 className="text-white font-bold">Estamos por perto</h4>
+        </div>
+        <p className="text-white/90 text-sm">
+          WhatsApp direto, reuniões semanais e acompanhamento das métricas.
+        </p>
+      </Card>
+    </div>
+
+    {/* CTAs finais */}
+    <p className="mt-8 text-sm opacity-80">
+      Bem-vinda à Talker Flow 💜
+    </p>
+  </div>
+</PresentationSlide>
+
+
+    
   ];
 
   return (
@@ -1741,7 +1784,7 @@ export const PresentationDeck = () => {
         slideTitle={slideTitles[currentSlide]}
         onSlideChange={goToSlide}
         onNext={nextSlide}
-        onPrev={prevSlide}
+        onPrevious={prevSlide}
       />
       
       {/* Conteúdo do slide atual */}
