@@ -25,7 +25,7 @@ export const slideTitles = [
   "Roteiro Micro-Demo",
   "Proposta de 1 Página",
   "Plano Semana 1",
-  "Remuneração e Comissionamento",
+  "Valor Mensal",
   "Próximos Passos",
   "Apêndice: Speed-to-Lead",
   "Apêndice: Templates",
@@ -123,9 +123,9 @@ export const beatrizFunctions = [
     details: ["Pesquisa de leads em  3 segmentos", "Primeiro contato via WhatsApp ou Email", "Qualificação inicial usando checklist"]
   },
   {
-    title: "Negociação e Fechamento", 
+    title: "Acompanhamento da Negociação", 
     description: "Conduzir o pipeline de vendas até a assinatura",
-    details: ["Agendar demos com prospects qualificados", "Apresentar proposta de valor", "Negociar condições e fechar contratos"]
+    details: ["Agendar demos com prospects qualificados", "Apresentar proposta de valor", "Acompanhar fechamentos"]
   },
   {
     title: "Suporte ao Cliente (Em Breve)",

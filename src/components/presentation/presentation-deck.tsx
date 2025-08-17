@@ -1363,7 +1363,7 @@ export const PresentationDeck = () => {
     // Slide 27: Plano Semana 1
     <PresentationSlide key={25}>
       <SlideTitle>Plano Semana 1</SlideTitle>
-      <SlideSubtitle>Cronograma dia a dia para começar vendendo</SlideSubtitle>
+      <SlideSubtitle>Cronograma dia a dia</SlideSubtitle>
       
       <div className="space-y-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -1398,7 +1398,7 @@ export const PresentationDeck = () => {
         </div>
 
         <Card className="p-6 bg-gradient-primary text-white">
-          <h3 className="text-2xl font-bold mb-4 text-center">Meta Final da Semana</h3>
+          <h3 className="text-2xl font-bold mb-4 text-center">Objetivo ao Final da Semana</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
             <div>
               <div className="text-3xl font-bold">10-12</div>
@@ -1443,7 +1443,7 @@ export const PresentationDeck = () => {
       </div>
     </PresentationSlide>,
 
-    // Slide 28: Remuneração e Comissionamento
+    // Slide 28: Remuneração
     <PresentationSlide key={26} background="gradient">
       <SlideTitle>Valores e Incentivos</SlideTitle>
       <SlideSubtitle>Sua estrutura de pagamento transparente</SlideSubtitle>
